@@ -42,7 +42,8 @@ dependencies {
     testCompile 'org.neo4j.app:neo4j-server:2.2.2:tests'
     testCompile 'org.neo4j:neo4j-kernel:2.2.2:tests'
     testCompile 'org.neo4j:neo4j-io:2.2.2:tests'
-	testCompile 'org.neo4j:neo4j-ogm-test:1.1.0.BUILD-SNAPSHOT:tests'
+	testCompile 'org.neo4j.test:neo4j-harness:2.2.2'
+	testCompile 'org.neo4j:neo4j-ogm:1.1.0:tests'
 }
 
 
